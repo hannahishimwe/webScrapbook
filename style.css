@@ -1,20 +1,115 @@
 body {
-    height: 100vh;
-    width: 100vw;
-    background-color: black;
-    margin: 0rem;
+    height: 100%;
+    width: 100%;
+    background-color: #06061B;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    overflow-y: hidden; 
 }
 
 
-.img{
+.area{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+.image{
     width: 40vmin;
-    height: 56vmin;
-    object-fit: cover;
-    object-position: center;
+    height: 60vmin;
+    margin: 100px auto 50px ;
+    background-position: 50% 50%;
+    border-radius: 5px;
+}
+
+.image:hover {
+     transition: all .4s ease-in-out;
+     transform: scale(1.03);
+ }
+
+.first-column, 
+.second-column,
+.third-column{
+    flex: 33%;
+    animation: moveDown linear infinite 30s 0s;
     
 }
 
-#area{
-    position:relative;
+.first-column{
+    margin: 50px 0 0 0;
 }
+.second-column{
+    margin: 70px 0 0 0;
+    
+}
+.third-column{
+    margin: 55px 0 0 0;
+}
+
+.first-images:nth-child(1){
+    background-image: url("images/bereal.jpeg");
+    background-size: cover; 
+}
+
+.first-images:nth-child(2){
+    background-image: url("images/bread.jpeg");
+    background-size: cover;
+    
+    
+}
+
+.first-images:nth-child(3){
+    background-image: url("images/houses.jpeg");
+    background-size: cover;
+}
+
+.second-images:nth-child(1){
+    background-image: url("images/jukebox.jpeg");
+    background-size: cover;
+}
+
+.second-images:nth-child(2){
+    background-image: url("images/park.jpeg");
+    background-size: cover;
+}
+
+.second-images:nth-child(3){
+    background-image: url("images/plant.jpeg");
+    background-size: cover;
+}
+
+.third-images:nth-child(1){
+    background-image: url("images/street.jpeg");
+    background-size: cover;
+    
+}
+
+.third-images:nth-child(2){
+    background-image: url("images/susie.jpeg");
+    background-size: cover;
+}
+
+.third-images:nth-child(3){
+    background-image: url("images/window.jpeg");
+    background-size: cover; 
+}
+
+@keyframes moveDown {
+    0%{
+        transform: translateY(-100%); 
+        
+    }
+
+    100%{
+        transform: translateY(40%); 
+    }
+}
+
+
+
+
+
+
 
