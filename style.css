@@ -4,8 +4,8 @@ body {
     background-color: #06061B;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
-    overflow-y: hidden; 
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -99,17 +99,14 @@ body {
 @keyframes moveDown {
     0%{
         transform: translateY(-100%); 
-        
+        opacity: 0.5;
+    }
+
+    33%{
+        opacity: 1;
     }
 
     100%{
         transform: translateY(40%); 
     }
 }
-
-
-
-
-
-
-
