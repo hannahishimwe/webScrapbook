@@ -21,7 +21,8 @@ body {
     height: 60vmin;
     margin: 100px auto 50px ;
     background-position: 50% 50%;
-    border-radius: 5px;
+    border-radius: 10px;
+    
 }
 
 .image:hover {
