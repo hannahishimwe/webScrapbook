@@ -50,50 +50,50 @@ body {
 }
 
 .first-images:nth-child(1){
-    background-image: url("images/bereal.jpeg");
+    background-image: url("../images/bereal.jpeg");
     background-size: cover; 
 }
 
 .first-images:nth-child(2){
-    background-image: url("images/bread.jpeg");
+    background-image: url("../images/bread.jpeg");
     background-size: cover;
     
     
 }
 
 .first-images:nth-child(3){
-    background-image: url("images/houses.jpeg");
+    background-image: url("../images/houses.jpeg");
     background-size: cover;
 }
 
 .second-images:nth-child(1){
-    background-image: url("images/jukebox.jpeg");
+    background-image: url("../images/jukebox.jpeg");
     background-size: cover;
 }
 
 .second-images:nth-child(2){
-    background-image: url("images/park.jpeg");
+    background-image: url("../images/park.jpeg");
     background-size: cover;
 }
 
 .second-images:nth-child(3){
-    background-image: url("images/plant.jpeg");
+    background-image: url("../images/plant.jpeg");
     background-size: cover;
 }
 
 .third-images:nth-child(1){
-    background-image: url("images/street.jpeg");
+    background-image: url("../images/street.jpeg");
     background-size: cover;
     
 }
 
 .third-images:nth-child(2){
-    background-image: url("images/susie.jpeg");
+    background-image: url("../images/susie.jpeg");
     background-size: cover;
 }
 
 .third-images:nth-child(3){
-    background-image: url("images/window.jpeg");
+    background-image: url("../images/window.jpeg");
     background-size: cover; 
 }
 
